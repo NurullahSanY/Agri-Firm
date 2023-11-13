@@ -13,7 +13,7 @@ ng serve -o
 ```
 git pull origin main
 ```
-### Git pull project
+### Git push project
 ```
 git push origin main
 ```
