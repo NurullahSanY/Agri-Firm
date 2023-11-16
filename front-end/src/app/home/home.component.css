@@ -67,4 +67,18 @@ body, h1, h2, h3, p, ul, li {
   /* Stick the footer to the bottom */
   margin-top: auto;
   }
+
+  /* home.component.css */
+
+img {
+  background-image: url(https://th.bing.com/th/id/R.2c38886b19a4ed3cd5f41eeacc89848c?rik=ymklU9hF2xfEUw&pid=ImgRaw&r=0);
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  height:700px; /* Adjust as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
   
