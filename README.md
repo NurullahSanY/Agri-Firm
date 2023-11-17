@@ -23,8 +23,8 @@ git push -f origin main
 ```
 ### Git config
 ```
-git config --global user.name "your github name"
-git config --global user.email "your email"
+git config --global user.name "1804054Miraz"
+git config --global user.email "u1804054@student.cuet.ac.bd"
 ```
 ### Git add, commit, push
 ```
