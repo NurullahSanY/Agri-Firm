@@ -71,7 +71,8 @@ body, h1, h2, h3, p, ul, li {
   /* home.component.css */
 
 img {
-  background-image: url(https://english.news.cn/20230825/fe86fa04b3074635a83d12467cd60d55/20230825fe86fa04b3074635a83d12467cd60d55_ChkhgeE007009_20230825_CBMFN0A002.jpg);
+  /* background-image: url(https://c1.wallpaperflare.com/preview/290/853/231/sugarcane-cane-field-raw-sugar-crop.jpg); */
+  background-image: url(https://e1.pxfuel.com/desktop-wallpaper/528/763/desktop-wallpaper-rice-field-view-rice-field.jpg);
   background-size: cover; /* Adjust as needed */
   background-position: center; /* Adjust as needed */
   height:700px; /* Adjust as needed */

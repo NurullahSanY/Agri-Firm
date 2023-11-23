@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -6,5 +7,28 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
+  images = [
+    {
+      url: 'assets/images/jute1.jpg',
+      title: 'Image 1',
+      description: 'This is the first image description.'
+    },
+    {
+      url: 'assets/images/vegetables.jpg',
+      title: 'Image 2',
+      description: 'This is the second image description.'
+    },
+    {
+      url: 'https://images.unsplash.com/photo-1586771107445-d3ca888129ff?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGFncmljdWx0dXJlfGVufDB8fDB8fHww',
+      title: 'Image 3',
+      description: 'This is the third image description.'
+    }
+  ];
 
+  constructor(private router: Router) {}
+
+  navigateTo(page: string): void {
+    this.router.navigate([page]);
+  }
+  carouselInterval = 5000;
 }

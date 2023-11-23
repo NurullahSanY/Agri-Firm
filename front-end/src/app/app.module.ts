@@ -8,6 +8,7 @@ import { FisheriesComponent } from './fisheries/fisheries.component';
 import { PlantComponent } from './plant/plant.component';
 import { VeterinaryComponent } from './veterinary/veterinary.component';
 import { AgricultureComponent } from './agriculture/agriculture.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AgricultureComponent } from './agriculture/agriculture.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
