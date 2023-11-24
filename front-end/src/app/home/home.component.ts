@@ -1,24 +1,23 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import {
-  faHome,faLocationDot, faPhone, faEnvelope,
+  faPhone,
+  faEnvelope,
+  faLocationDot,
 } from '@fortawesome/free-solid-svg-icons';
-=======
-import { FaConfig } from '@fortawesome/angular-fontawesome'
-
 import {
   faFacebookSquare,
   faTwitterSquare,
   faInstagramSquare,
   faPinterestSquare,
 } from '@fortawesome/free-brands-svg-icons';
-
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css'],
+  styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
+
   homeicon = faLocationDot;
   emailicon = faEnvelope;
   phoneicon = faPhone;
@@ -26,7 +25,7 @@ export class HomeComponent {
   tweetrericon = faTwitterSquare;
   pinteresticon = faPinterestSquare;
   instagramicon = faInstagramSquare;
-
+  
   images = [
     {
       url: 'assets/images/jute1.jpg',
