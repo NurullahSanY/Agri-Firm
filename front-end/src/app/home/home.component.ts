@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { FaConfig } from '@fortawesome/angular-fontawesome';
+import { FaConfig } from '@fortawesome/angular-fontawesome'
 import { faHome, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import {
   faFacebookSquare,

@@ -4,6 +4,7 @@
   font-size: 20px;
 } */
 /* Basic Reset */
+
 /* Header Styles */
 header {
   background-color: #f2f2f2;
@@ -30,16 +31,16 @@ nav {
 nav ul {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   /* padding: 10px 0; */
 }
 
 nav a {
   text-decoration: none;
   color: #fff;
-  padding: 8px 15px;
+  /* padding: 8px 15px; */
   /* border-radius: 5px; */
-  font-size: 20px;
+  /* font-size: 20px; */
   font-weight: 400;
 }
 
@@ -48,51 +49,62 @@ nav a:hover {
   color: #183153;
 }
 
-nav .logo_design {
+/* nav .logo_design {
   height: 50px;
   width: 100px;
-}
+} */
 .logo_design a:hover {
   background-color:#183153;
 }
 
-main {
+/* main {
   flex: 1;
-}
+}*/
 
 /* Main Content Styles - Add your specific content styles here */
 
-/* Footer Styles */
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-  /* Stick the footer to the bottom */
-  margin-top: auto;
-}
 
 /* home.component.css */
-ngb-carousel {
-  max-width: 100%;
-  margin-top: 20px;
+/* Change From Miraz *//* Cart er jonno CSS*/
+/* home.component.css */
+
+/* Styles for the navigation bar (adjust as needed) */
+.navbar {
+  margin-bottom: 0; /* Remove the default bottom margin */
 }
 
+/* Styles for the container holding the carousel */
+.carousel-container {
+  margin-top: -20px; /* Adjust as needed to remove space */
+}
+
+/* Styles for the carousel (existing styles) */
 .carousel-item {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
 }
 
-img {
+.carousel-item img {
   width: 100%;
-  height: auto;
-  max-height: 70vh;
+  height: 100%;
   object-fit: cover;
-  /* border-radius: 10px; */
-  box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 1rem;
+  margin-top: 0;
+}
+
 
 .carousel-caption {
   position: absolute;
@@ -107,23 +119,13 @@ img {
   /* padding: 20px; */
 }
 
-h3 {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
+/* For service name */
+.Service {
+  /* max-width: 100%; */
+  padding-top: 40px;
+  
 }
-
-p {
-  font-size: 0.8rem;
-  margin-top: 0;
-}
-
-/* home.component.css */
-.status {
-  max-width: 100%;
-  margin-top: 100px;
-  margin-bottom: 40px;
-}
-.status h1 {
+.Service h1 {
   position: absolute;
   transform: translate(0%, -50%);
   width: 100%; /* Adjust as needed */
@@ -134,12 +136,13 @@ p {
   padding: 20px;
 }
 
-/* Styles for the carousel (existing styles) */
+/* Styles for the cart */
 .carts-container {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 20%;
-  margin-top: 10%;
+  /* Change from Miraz */
+  margin-bottom: 6%;
+  margin-top: 3%;
 }
 
 .cart {
@@ -167,8 +170,15 @@ p {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-
-/* othersfile */
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  /* Stick the footer to the bottom */
+  margin-top: auto;
+}
 
 footer p, a{
   font-size: 15px;
