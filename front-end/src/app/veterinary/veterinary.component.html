@@ -1,1 +1,147 @@
-<p>veterinary works!</p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>veterinary</title>
+  </head>
+  <body>
+    <main>
+     <!-- navbar startt -->
+      <nav
+      class="navbar navbar-expand-lg navbar-primary"
+      style="background-color: #183153"
+    >
+      <div class="container">
+        <!-- <a class="navbar-brand custombrand" href="#"><img src="assets/images/testLogo.png" alt="logo" srcset=""></a> -->
+        <div class="logo_design">
+          <a routerLink="/home">
+            <img src="assets/images/testLogo.png" alt="logo" srcset="" />
+          </a>
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          style="border-color: #fff"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item pe-3">
+              <a class="nav-link" routerLink="/home">Home</a>
+            </li>
+            <li class="nav-item pe-3">
+              <a class="nav-link" routerLink="#">About</a>
+            </li>
+            <li class="nav-item pe-3">
+              <a class="nav-link" routerLink="/agriculture">Agriculture</a>
+            </li>
+            <li class="nav-item pe-3">
+              <a class="nav-link" routerLink="/fisheries">Fish Farming</a>
+            </li>
+            <li class="nav-item pe-3">
+              <a class="nav-link" routerLink="/veterinary">Veterinary</a>
+            </li>
+            <li class="nav-item pe-3">
+              <a class="nav-link" routerLink="/plant">Plant</a>
+            </li>
+            <li class="nav-item pe-3">
+              <a class="nav-link" routerLink="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </nav>
+    </main>  
+      <!-- Footer Start -->
+  <footer class="text-center text-white" style="background-color: #183153">
+    <div class="row">
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <!-- Content -->
+        <h1 class="text-uppercase fw-bold">AgriAid</h1>
+        <hr
+          class="mb-4 mt-0 d-inline-block mx-auto"
+          style="width: 60px; background-color: #fff; height: 3px"
+        />
+        <p class="text-left">
+          AgriAid is the complete solution for agriculture
+        </p>
+        <p class="text-left">
+          <fa-icon [icon]="homeicon"> </fa-icon> Address: New Airport Road,
+          Bonani, Dhaka-1213,Bangladesh
+        </p>
+        <p class="text-left">
+          <fa-icon [icon]="emailicon"> </fa-icon> Email: agriaidinfo@gmail.com
+        </p>
+        <p class="text-left">
+          <fa-icon [icon]="phoneicon"> </fa-icon> Phone: +8801712532656
+        </p>
+      </div>
+
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h1 class="text-uppercase fw-bold">Services</h1>
+        <hr
+          class="mb-4 mt-0 d-inline-block mx-auto"
+          style="width: 60px; background-color: #fff; height: 3px"
+        />
+        <p>
+          <a routerLink = "/agriculture" class="text-white">Agriculture</a>
+        </p>
+        <p>
+          <a routerLink = "/fisheries" class="text-white">Fish Farming</a>
+        </p>
+        <p>
+          <a routerLink = "/veterinary" class="text-white">veterinary</a>
+        </p>
+        <p>
+          <a routerLink = "/plant" class="text-white">plant</a>
+        </p>
+      </div>
+
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h1 class="text-uppercase fw-bold">Follow us</h1>
+        <hr
+          class="mb-4 mt-0 d-inline-block mx-auto"
+          style="width: 60px; background-color: #fff; height: 3px"
+        />
+        <p>
+          <a href="#" class="text-white pe-3" style="font-size: 40px"
+            ><fa-icon [icon]="facebookicon"> </fa-icon
+          ></a>
+          <a href="#" class="text-white pe-3" style="font-size: 40px"
+            ><fa-icon [icon]="tweetrericon"> </fa-icon
+          ></a>
+          <a href="#" class="text-white pe-3" style="font-size: 40px"
+            ><fa-icon [icon]="pinteresticon"> </fa-icon
+          ></a>
+          <a href="#" class="text-white pe-3" style="font-size: 40px"
+            ><fa-icon [icon]="instagramicon"> </fa-icon
+          ></a>
+        </p>
+      </div>
+
+      <div class="copyright-wrap" style="background-color: #172b47">
+        <div class="container">
+          <div class="row pt-3">
+            <div class="col-lg-6 col-md-6 mx-auto text-center">
+              <div class="copyright-text">
+                <p>
+                  Copyright © 2023 <a routerLink = "/home">AgriAid</a> All Rights Reserved.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  </body>
+</html>
