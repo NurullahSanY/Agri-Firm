@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { FaConfig } from '@fortawesome/angular-fontawesome';
 import {
-  faLocationDot,
-  faPhone,
-  faEnvelope,
+  faHome,faLocationDot, faPhone, faEnvelope,
 } from '@fortawesome/free-solid-svg-icons';
+=======
+import { FaConfig } from '@fortawesome/angular-fontawesome'
+
 import {
   faFacebookSquare,
   faTwitterSquare,
