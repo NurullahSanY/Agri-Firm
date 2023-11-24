@@ -1,7 +1,11 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { FaConfig } from '@fortawesome/angular-fontawesome';
-import { faHome, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import {
+  faLocationDot,
+  faPhone,
+  faEnvelope,
+} from '@fortawesome/free-solid-svg-icons';
 import {
   faFacebookSquare,
   faTwitterSquare,
@@ -15,7 +19,7 @@ import {
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent {
-  homeicon = faHome;
+  homeicon = faLocationDot;
   emailicon = faEnvelope;
   phoneicon = faPhone;
   facebookicon = faFacebookSquare;
