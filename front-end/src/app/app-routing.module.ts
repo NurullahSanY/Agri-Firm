@@ -8,16 +8,17 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
-  {path:'home', component:HomeComponent},
-  {path: 'fisheries', component:FisheriesComponent},
-  {path: 'plant', component:PlantComponent},
-  {path: 'agriculture', component:AgricultureComponent},
-  {path: 'veterinary', component:VeterinaryComponent},
-  {path: 'about', component:AboutComponent}
+  { path: '', component: HomeComponent },
+  { path: 'home', component: HomeComponent },
+  { path: 'fisheries', component: FisheriesComponent },
+  { path: 'plant', component: PlantComponent },
+  { path: 'agriculture', component: AgricultureComponent },
+  { path: 'veterinary', component: VeterinaryComponent },
+  { path: 'about', component: AboutComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

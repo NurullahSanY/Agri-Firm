@@ -1,12 +1,9 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Nunito:ital,wght@1,300&family=Open+Sans:ital,wght@1,400;1,600&family=Roboto:wght@700&display=swap'); */
-@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Nunito:ital,wght@1,300&family=Open+Sans:ital,wght@1,400;1,500;1,600&family=Roboto:wght@700&display=swap");
-/* h1 {
-  font-size: 20px;
-} */
-/* Basic Reset */
 
-/* Header Styles */
-header {
+/* Basic style for nav and footer  */
+
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Nunito:ital,wght@1,300&family=Open+Sans:ital,wght@1,400;1,500;1,600&family=Roboto:wght@700&display=swap");
+
+/* header {
   background-color: #f2f2f2;
   text-align: center;
 }
@@ -14,33 +11,29 @@ header {
 header h1 {
   color: #333;
   font-size: 30px;
-  /* font-style: italic; */
 }
 
 header p {
-  /* color: #666; */
   font-weight: bold;
-}
+} */
 
 nav {
   background-color: #333;
   font-size: 15px;
-  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  border-radius: 0px;
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  /* justify-content: space-around; */
-  /* padding: 10px 0; */
+  justify-content: space-around;
 }
 
 nav a {
   text-decoration: none;
   color: #fff;
-  /* padding: 8px 15px; */
-  /* border-radius: 5px; */
-  /* font-size: 20px; */
+  padding: 8px 15px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -49,98 +42,76 @@ nav a:hover {
   color: #183153;
 }
 
-/* nav .logo_design {
+nav .logo_design {
   height: 50px;
   width: 100px;
-} */
+}
 .logo_design a:hover {
   background-color:#183153;
 }
 
-/* main {
-  flex: 1;
-}*/
-
-/* Main Content Styles - Add your specific content styles here */
-
-
-/* home.component.css */
-/* Change From Miraz *//* Cart er jonno CSS*/
-/* home.component.css */
-
-/* Styles for the navigation bar (adjust as needed) */
-.navbar {
-  margin-bottom: 0; /* Remove the default bottom margin */
+main {
+  /* flex: 1; */
 }
 
-/* Styles for the container holding the carousel */
+/* Styles for  carousel */
 .carousel-container {
-  margin-top: -20px; /* Adjust as needed to remove space */
+  /* margin-top: 150px; */
 }
 
-/* Styles for the carousel (existing styles) */
 .carousel-item {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
 }
 
 .carousel-item img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
-
-h3 {
-  font-size: 1.5rem;
-  margin-bottom: 0;
-}
-
-p {
-  font-size: 1rem;
-  margin-top: 0;
-}
-
 
 .carousel-caption {
   position: absolute;
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 40%; /* Adjust as needed */
+  width: 40%;
   text-align: center;
   background-color: rgba(8, 8, 8, 0.7);
   color: #fff;
-  /* border-radius: 10px; */
-  /* padding: 20px; */
 }
 
 /* For service name */
 .Service {
-  /* max-width: 100%; */
-  padding-top: 40px;
-  
+  /* padding-top: 36px; */
+  background-color: #183153;
+  text-align: center;
+  color: #fff;
+  /* font-size: 50; */
+  /* font-weight: 200; */
+  height: 60px;
+  margin-top: 1px;
 }
-.Service h1 {
+.Service h1{
+  padding-top: 15px;
+}
+
+/* .Service h1 {
   position: absolute;
-  transform: translate(0%, -50%);
-  width: 100%; /* Adjust as needed */
+  transform: translate(0%, 1%);
+  width: 100%;
   text-align: center;
   background-color: rgba(8, 8, 8, 0.7);
   color: #fff;
-  /* border-radius: 10px; */
   padding: 20px;
-}
+} */
 
 /* Styles for the cart */
-.carts-container {
+/* .carts-container {
   display: flex;
   justify-content: space-around;
-  /* Change from Miraz */
   margin-bottom: 6%;
   margin-top: 3%;
 }
@@ -154,9 +125,8 @@ p {
 
 .cart img {
   width: 120%;
-  height: 120%; /* Adjust as needed */
+  height: 120%;
   object-fit: cover;
-  /* border-radius: 10px; */
 }
 
 .cart h3 {
@@ -168,22 +138,32 @@ p {
 .cart:hover {
   transform: scale(1.05);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
+} */
 
-/* Footer Styles */
+
+
+
+
 footer {
   background-color: #333;
   color: #fff;
   text-align: center;
-  padding: 5px;
-  /* Stick the footer to the bottom */
+  padding: 10px;
   margin-top: auto;
 }
 
+img {
+  width: 100%;
+  height: auto;
+  max-height: 70vh;
+  object-fit: cover;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+}
 footer p, a{
   font-size: 15px;
 }
-
 footer p a{
   text-decoration: none;
 }
+
+/* Basic style for nav and footer  */
