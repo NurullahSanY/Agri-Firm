@@ -32,9 +32,22 @@ export class HomeComponent {
       description: 'Farming description',
     },
     {
-      url: 'https://media.istockphoto.com/id/855504838/photo/agriculture-on-rooftop.jpg?s=612x612&w=0&k=20&c=Lp2ARf2hv3aXuinUZeace5mg8OH4Eh3dhOB9BFR41wc=',
-      title: 'Planting',
-      description: 'Plating description',
+      // url: 'https://media.istockphoto.com/id/855504838/photo/agriculture-on-rooftop.jpg?s=612x612&w=0&k=20&c=Lp2ARf2hv3aXuinUZeace5mg8OH4Eh3dhOB9BFR41wc=',
+      // title: 'Planting',
+      // description: 'Plating description',
+      url: 'assets/images/slider1.jpg',
+      title: 'Flowers',
+      description: 'Flowers are the beautiful and often fragrant reproductive structures of angiosperms, playing a crucial role in pollination and seed production within the plant life cycle.',
+    },
+    {
+      url: 'assets/images/slider2.jpg',
+      title: 'Vegetable',
+      description: 'Vegetables are plant-based foods that are rich in nutrients and essential for a balanced diet.',
+    },
+    {
+      url: 'assets/images/slider3.jpg',
+      title: 'Vegetable',
+      description: 'Vegetables are plant-based foods that are rich in nutrients and essential for a balanced diet.',
     },
     {
       url: 'https://brooklyneagle.com/wp-content/uploads/2015/07/brooklyn-grange-garden.jpg',
@@ -57,6 +70,7 @@ export class HomeComponent {
       description: 'Plating description',
     }
   ];
+
 
   constructor(private router: Router) {}
 
