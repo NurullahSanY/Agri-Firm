@@ -27,16 +27,22 @@ export class HomeComponent {
 
   images = [
     {
-      url: 'assets/images/slider_bg02.jpg',
-      title: 'Farming',
-      description: 'Farming description',
+      url: 'assets/images/slider1.jpg',
+      title: 'Flowers',
+      description: 'Flowers are the beautiful and often fragrant reproductive structures of angiosperms, playing a crucial role in pollination and seed production within the plant life cycle.',
     },
     {
-      url: 'assets/images/slider_bg03.jpg',
-      title: 'Planting',
-      description: 'Plating description',
+      url: 'assets/images/slider2.jpg',
+      title: 'Vegetable',
+      description: 'Vegetables are plant-based foods that are rich in nutrients and essential for a balanced diet.',
+    },
+    {
+      url: 'assets/images/slider3.jpg',
+      title: 'Vegetable',
+      description: 'Vegetables are plant-based foods that are rich in nutrients and essential for a balanced diet.',
     },
   ];
+
 
   constructor(private router: Router) {}
 

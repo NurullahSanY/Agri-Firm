@@ -11,6 +11,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
+import { SignInComponent } from './sign-in/sign-in.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { HomeComponent } from './home/home.component';
     VeterinaryComponent,
     AgricultureComponent,
     AboutComponent,
-    HomeComponent
+    HomeComponent,
+    SignUpComponent,
+    SignInComponent
   ],
   imports: [
     BrowserModule,
