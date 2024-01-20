@@ -40,11 +40,12 @@ nav a:hover {
 }
 
 nav .logo_design {
-  height: 50px;
-  width: 100px;
+  height: 30px;
+  width: 55px;
 }
 .logo_design a:hover {
   background-color:#183153;
+  color: #fff;
 }
 
 main {
