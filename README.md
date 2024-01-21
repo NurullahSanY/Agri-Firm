@@ -5,8 +5,10 @@ git clone https://github.com/1804054Miraz/Final_Year_projects.git
 ```
 ### Angular project run
 ```
+cd front-end
 npm install -y
 npm install -g @angular/cli
+npm install bootstrap@5
 ng serve -o
 ```
 ### Git repository pull
