@@ -6,6 +6,9 @@ import { AgricultureComponent } from './agriculture/agriculture.component';
 import { VeterinaryComponent } from './veterinary/veterinary.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { SignupComponent } from './signup/signup.component';
+import { SigninComponent } from './signin/signin.component';
+
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -15,6 +18,8 @@ const routes: Routes = [
   { path: 'agriculture', component: AgricultureComponent },
   { path: 'veterinary', component: VeterinaryComponent },
   { path: 'about', component: AboutComponent },
+  { path: 'signup', component: SignupComponent },
+  { path: 'signin', component: SigninComponent },
 ];
 
 @NgModule({
