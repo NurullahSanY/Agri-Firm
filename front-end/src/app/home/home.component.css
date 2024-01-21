@@ -52,13 +52,13 @@ nav .logo_design {
   color: #fff;
 }
 
-main {
-  /* flex: 1; */
-}
+/* main {
+  flex: 1;
+} */
 
 /* Styles for  carousel */
 .carousel-container {
-  /* margin-top: 150px; */
+  margin-top: 150px;
 }
 
 .carousel-item {
