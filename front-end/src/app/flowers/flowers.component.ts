@@ -13,11 +13,11 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
-  selector: 'app-fisheries',
-  templateUrl: './fisheries.component.html',
-  styleUrls: ['./fisheries.component.css'],
+  selector: 'app-flowers',
+  templateUrl: './flowers.component.html',
+  styleUrls: ['./flowers.component.css'],
 })
-export class FisheriesComponent {
+export class FlowersComponent {
   homeicon = faLocationDot;
   emailicon = faEnvelope;
   phoneicon = faPhone;
