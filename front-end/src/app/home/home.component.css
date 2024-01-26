@@ -128,8 +128,8 @@ nav .logo_design {
 }
 
 .cart img {
-  width: 120%;
-  height: 120%;
+  width: 20px;
+  height: 20px;
   object-fit: cover;
 }
 
@@ -144,6 +144,22 @@ nav .logo_design {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 } */
 
+.cardhome{
+text-align: center;
+background-color:#1e3e6c ;
+color: #fff;
+border: none;
+font-size: 30px;
+}
+
+.cardhome :hover{
+  transform: scale(1.01);
+  cursor: pointer;
+}
+.cardhome img{
+  height: 250px;
+  width: 100%;
+}
 
 
 

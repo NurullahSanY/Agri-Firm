@@ -55,11 +55,11 @@
               <a class="nav-link" routerLink="/about">About Us</a>
             </li>
             <li class="nav-item pe-3 signbackgroundcolorfixed">
-              <a class="nav-link " routerLink="/signin"> <button type="button" class="btn btn-warning  text-white fs-4">SignIn</button> </a>
+              <a class="nav-link " routerLink="/signin"> <button type="button" class="btn btn-success  text-white fs-5">Enrollments</button> </a>
             </li>
-            <li class="nav-item pe-3">
+            <!-- <li class="nav-item pe-3">
               <a class="nav-link" routerLink="/signup"> <button type="button" class="btn btn-warning text-white fs-4">SignUp</button> </a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -95,20 +95,26 @@
     </div> -->
 
 
-    <div class="card-group">
-      <div class="card me-2"  (click)="navigateTo('fruits')">
-        <img src="assets/images/jute1.jpg" alt="fruits" />
+    <div class="card-group m-1 ">
+      <div class="card me-1 cardhome "  (click)="navigateTo('agriculture')">
+        <img src="assets/images/agri.jpg" alt="agriculture" />
+        <div class="card-body  ">
+          <h3 class="card-title ">Agriculture</h3>
+        </div>
       </div>
-      <div class="card me-2">
-        <img src="assets/images/jute1.jpg" alt="fruits" />
+      <div class="card me-1 cardhome"  (click)="navigateTo('fruits')">
+        <img src="assets/images/fruits.jpg" alt="fruits" />
+        <div class="card-body ">
+          <h3 class="card-title ">Fruits</h3>
+        </div>
       </div>
-      <div class="card me-2">
-        <img src="assets/images/jute1.jpg" alt="fruits" />
+      <div class="card me-1 cardhome"  (click)="navigateTo('flowers')">
+        <img src="assets/images/flowers.jpg" alt="Flowers" />
+        <div class="card-body ">
+          <h3 class="card-title ">Flowers</h3>
+        </div>
       </div>
-      <div class="card me-2">
-        <img src="assets/images/jute1.jpg" alt="fruits" />
-      </div>
-     
+
     </div>
 
 
@@ -148,10 +154,10 @@
           style="width: 60px; background-color: #fff; height: 3px"
         />
         <p>
-          <a routerLink="/agriculture" class="text-white">AgriCulture</a>
+          <a routerLink="/agriculture" class="text-white">Agriculture</a>
         </p>
         <p>
-          <a routerLink="/fruits" class="text-white">fruits</a>
+          <a routerLink="/fruits" class="text-white">Fruits</a>
         </p>
         <p>
           <a routerLink="/flowers" class="text-white">Flowers</a>
@@ -188,7 +194,7 @@
             <div class="col-lg-6 col-md-6 mx-auto text-center">
               <div class="copyright-text">
                 <p>
-                  Copyright © 2023 <a routerLink="/home">Roof Agriculture Community</a> All Rights
+                  Copyright © 2024 <a routerLink="/home">Roof Agriculture Community</a> All Rights
                   Reserved.
                 </p>
               </div>
