@@ -3,10 +3,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { AgricultureComponent } from './agriculture/agriculture.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
-import { SignupComponent } from './signup/signup.component';
 import { SigninComponent } from './signin/signin.component';
 import { FlowersComponent } from './flowers/flowers.component';
 import { FruitsComponent } from './fruits/fruits.component';
+import { UserprofileComponent } from './userprofile/userprofile.component';
 
 
 const routes: Routes = [
@@ -15,9 +15,11 @@ const routes: Routes = [
   { path: 'flowers', component: FlowersComponent},
   { path: 'agriculture', component: AgricultureComponent },
   { path: 'about', component: AboutComponent },
-  { path: 'signup', component: SignupComponent },
   { path: 'signin', component: SigninComponent },
-  { path: 'fruits', component:FruitsComponent}
+  { path: '', redirectTo: '/signin', pathMatch: 'full' },
+  { path: '', redirectTo: '/signup', pathMatch: 'full' },
+  { path: 'fruits', component:FruitsComponent},
+  { path: 'userprofile', component: UserprofileComponent}
 ];
 
 @NgModule({
