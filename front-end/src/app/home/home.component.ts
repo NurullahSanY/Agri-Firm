@@ -29,7 +29,7 @@ export class HomeComponent {
     {
       url: '/assets/images/pick_up.jpg',
       title: 'Farming',
-      description: 'Farming description',
+      description: 'Farmers grow food by planting seeds and taking care of plants. They use tools like tractors to make farming easier. Harvest time is when they pick ripe fruits and vegetables.',
     },
     {
       // url: 'https://media.istockphoto.com/id/855504838/photo/agriculture-on-rooftop.jpg?s=612x612&w=0&k=20&c=Lp2ARf2hv3aXuinUZeace5mg8OH4Eh3dhOB9BFR41wc=',
@@ -51,8 +51,8 @@ export class HomeComponent {
     },
     {
       url: 'https://brooklyneagle.com/wp-content/uploads/2015/07/brooklyn-grange-garden.jpg',
-      title: 'Planting',
-      description: 'Plating description',
+      title: 'Gardening',
+      description: 'Gardening is a hobby where people plant and care for flowers, vegetables, and herbs in their backyard. It brings joy and relaxation as they watch their plants grow and bloom.',
     },
     {
       url: 'https://eadn-wc01-4177395.nxedge.io/wp-content/uploads/2020/05/69174846_10156662727869503_8266423507643006976_o.jpg',
@@ -61,13 +61,13 @@ export class HomeComponent {
     },
     {
       url: 'https://eadn-wc01-4177395.nxedge.io/wp-content/uploads/2020/05/MattFarming-1.jpg',
-      title: 'Planting',
-      description: 'Plating description',
+      title: 'Prepping Soil ',
+      description: 'Preparing soil means getting it ready for planting. Farmers loosen the soil, remove weeds, and add nutrients to help plants grow.',
     },
     {
       url: 'https://eadn-wc01-4177395.nxedge.io/wp-content/uploads/2020/05/71113341_10156742812044503_1916056714008854528_o.jpg',
-      title: 'Planting',
-      description: 'Plating description',
+      title: 'vegetables',
+      description: 'Vegetables are plants we eat, like carrots and broccoli. Farmers grow them in the soil, and we can cook and enjoy them for healthy meals.',
     }
   ];
 
